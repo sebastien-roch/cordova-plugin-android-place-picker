@@ -15,10 +15,10 @@ AndroidPlacePicker.pickPlace(onSuccess, onError);
 The `onSuccess` function receives an object with the following structure:
 ```
 {
-    name: '18 Washington Avenue',
+    name: 'Poststrasse 10',
     coords: {
-        longitude: '',
-        latitude: ''
+        latitude: '8.3966319',
+        longitude: '47.370395'
     }
 }
 ```
