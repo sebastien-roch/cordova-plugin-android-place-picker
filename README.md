@@ -1,7 +1,7 @@
 # Install
 
 ```
-cordova plugin add git@github.com:sebastien-roch/cordova-plugin-android-place-picker.git
+cordova plugin add https://github.com/sebastien-roch/cordova-plugin-android-place-picker.git
 ````
 
 # Requirement
