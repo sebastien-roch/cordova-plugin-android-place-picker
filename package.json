@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-android-place-picker",
+  "version": "1.0.0",
+  "description": "A cordova plugin that lets the user pick a place on a map. Plugin returns the name and coordinates.",
+  "cordova": {
+    "id": "cordova-plugin-device",
+    "platforms": [
+      "android"
+    ]
+  },
+  "main": "www/android-place-picker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastien-roch/cordova-plugin-android-place-picker.git"
+  },
+  "keywords": [
+    "cordova",
+    "cordova-android",
+    "ecosystem:cordova",
+    "place",
+    "places",
+    "google",
+    "picker",
+    "navigation",
+    "location"
+  ],
+  "author": "Sébastien Roch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastien-roch/cordova-plugin-android-place-picker/issues"
+  },
+  "homepage": "https://github.com/sebastien-roch/cordova-plugin-android-place-picker#readme"
+}
