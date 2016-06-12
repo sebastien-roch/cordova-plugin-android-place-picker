@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-android-place-picker" version="0.1.0">
+    <name>Android Place Picker</name>
+    <description>Cordova Place Picker Plugin</description>
+    <license>MIT</license>
+    <keywords>cordova,google maps, place picker</keywords>
+    <js-module src="www/android-place-picker.js" name="AndroidPlacePicker">
+        <clobbers target="AndroidPlacePicker" />
+    </js-module>
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="AndroidPlacePicker">
+                <param name="android-package" value="roch.sebastien.AndroidPlacePicker"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/AndroidPlacePicker.java" target-dir="src/roch/sebastien" />
+        <framework src="com.google.android.gms:play-services:+" />
+        <framework src="com.google.android.gms:play-services-plus:+" />
+        <framework src="com.google.android.gms:play-services-identity:+" />
+    </platform>
+</plugin>
